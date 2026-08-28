@@ -1,5 +1,5 @@
 baseURL                = "https://jigr.gitee.io/"
-locale                 = "zh"
+locale                 = "zh-CN"
 title                  = "Jee Blog"
 theme = "hugo-theme-stack"
 # 语言设置，中文改成 zh
