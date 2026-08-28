@@ -1,0 +1,4 @@
+#baseURL = 'https://example.org/'
+#locale = 'en-us'
+#title = 'Jee Blog'
+#theme = "hugo-theme-stack"

@@ -1,0 +1,49 @@
+baseURL                = "https://jigr.gitee.io/"
+locale                 = "zh"
+title                  = "Jee Blog"
+theme = "hugo-theme-stack"
+# 语言设置，中文改成 zh
+#defaultContentLanguage = "zh"
+# 中文博客必须设置为 true，否则阅读时长计算不准确
+hasCJKLanguage = true
+
+# Theme i18n support
+# See i18n folder for available languages
+defaultContentLanguage = "zh"
+# Set hasCJKLanguage to true if DefaultContentLanguage is a CJK language
+# This will make .Summary and .WordCount behave correctly
+# hasCJKLanguage         = false
+
+#[[module.imports]]
+#    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+[pagination]
+    pagerSize = 3
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[services.disqus]
+    shortname = "hugo-theme-stack"
+[params]
+    googleFonts = false
+
+[menu]
+[[menu.main]]
+    name = "博客主页"
+    url = "/"
+    weight = -100
+    identifier = "blog-home"
+    [menu.main.params]
+        icon = "home"
+        newTab = false
+
+[[menu.main]]
+    name = "博客"
+    url = "/jblog/"
+    weight = -99
+    identifier = "jblog"
+    [menu.main.params]
+        icon = "link"
+        newTab = false
