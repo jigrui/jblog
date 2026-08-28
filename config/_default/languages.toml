@@ -1,6 +1,7 @@
 [en]
     label  = "English"
     title  = "Hugo Theme Stack"
+    locale = "en-US"
     weight = 1
 
     [en.params.sidebar]
@@ -9,6 +10,7 @@
 [zh]
     label  = "简体中文"
     #title  = "Hugo 主题 Stack"
+    locale = "zh-CN"
     weight = 2
 
     [zh.params.sidebar]
@@ -17,6 +19,7 @@
 [zh-hant-tw]
     label  = "繁體中文"
     title  = "Hugo 主題 Stack"
+    locale = "zh-TW"
     weight = 3
 
     [zh-hant-tw.params.sidebar]
@@ -25,6 +28,7 @@
 [ja]
     label  = "日本語"
     title  = "Hugo Theme Stack"
+    locale = "ja-JP"
     weight = 4
 
     [ja.params.sidebar]
